@@ -1,0 +1,19 @@
+# Tistory Blog Crawler Requirements
+
+# Web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Selenium for Google search
+undetected-chromedriver>=3.5.0
+selenium>=4.0.0
+
+# Database
+pymysql>=1.1.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Date/time handling
+python-dateutil>=2.8.2

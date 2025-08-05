@@ -1,0 +1,9 @@
+openai>=1.30.0
+python-dotenv>=1.0.0
+pillow>=10.0.0
+requests>=2.31.0
+textwrap3>=0.9.2
+langgraph>=0.0.60
+langchain>=0.1.0
+langchain-core>=0.1.0
+mysql-connector-python>=8.0.0

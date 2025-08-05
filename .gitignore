@@ -1,0 +1,178 @@
+# ============================================
+# Modular Agents .gitignore
+# ============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Project specific
+/logs/
+/data/
+/temp/
+/tmp/
+/cache/
+/output/
+/results/
+/checkpoints/
+/graphs/
+/shared/
+
+# Temporary files
+test_*.py
+check_*.py
+analyze_*.py
+demo_*.py
+example_*.py
+sample_*.py
+*_test.py
+*_check.py
+*_analyze.py
+*_temp.py
+*_tmp.py
+*.bak
+*.backup
+*.old
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+migrations/temp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.log.*
+logs/
+log/
+
+# Data files (except schema/examples)
+*.csv
+*.xlsx
+*.xls
+*.json
+!package.json
+!tsconfig.json
+!setup_database.sql
+!schema/*.sql
+*.parquet
+*.pickle
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Model files
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.safetensors
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+site/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+!examples/*.ipynb
+
+# Node (if any frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Specific folders to ignore
+/agent_*/logs/
+/agent_*/temp/
+/agent_*/output/
+/agent_*/cache/
+/agent_*/__pycache__/
+/database/backups/
+/database/temp/
+
+# Keep important files
+!README.md
+!requirements.txt
+!setup.py
+!LICENSE
